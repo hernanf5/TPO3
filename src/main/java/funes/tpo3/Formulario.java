@@ -118,7 +118,7 @@ public class Formulario extends javax.swing.JFrame {
     }//GEN-LAST:event_jTpwdActionPerformed
 
     private void jBregisterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBregisterActionPerformed
-        // TODO add your handling code here:
+        // modificado por Arian:
         String mail = jTmail.getText();
         String pwd = jTpwd.getText();
         if( mail.equals("alumno@ulp.edu.ar") && pwd.equals("12345678")){
